@@ -1,0 +1,1384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A32399E140CE32E5DEABE1A0F351B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		0C60605B772C9822E0769C4370209264 /* UINavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093EB6343E0B48EAB9F800F2A7FF76A5 /* UINavigationController.swift */; };
+		0E81B3FA12034EFCFCA327B726C0FCB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		10B11D72681E4C449AE1B9711DB1CB51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		1CC570D92B7E346955AB9A4BD92497FB /* JDCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAFD9B97BDBA4BF09D96CAB025486A1 /* JDCoordinator.swift */; };
+		268FB76A77CD47867AD776705D247D4E /* Pods-what-to-cookTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 023A40865E05DDE0C5EC8F566FE3F625 /* Pods-what-to-cookTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E3302259DD6B80181D8289BBA173D0F /* JDCoordinator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F292A8FC0A28BB2C7B36B7E3B2030AD5 /* JDCoordinator-dummy.m */; };
+		2E947A7F8D3DC94204CB3200E734CCF8 /* NextResponderTextField-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB137443B6A25AF61D0FC9F05AF81B33 /* NextResponderTextField-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		408E04F42D3ADE85620A93220CB43BD8 /* JDParentCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C314ADDB72DE1F2CD8671DAFE784C7 /* JDParentCoordinator.swift */; };
+		45E460A6EA2C97DA68DB758251155E8D /* NextResponderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 217E3E5FED8010F1100C0B7F31A76546 /* NextResponderTextField.swift */; };
+		48C769F21B016F7497342FCA0D08BDC3 /* JDChildCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94CA2A160E64AA82D1E9022098A0843 /* JDChildCoordinatorProtocol.swift */; };
+		4C0348D5CB1CFD39648771D43E05BA0D /* Pods-what-to-cookTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E66AA1DB7B921B250B6208BD0EA1B82 /* Pods-what-to-cookTests-dummy.m */; };
+		541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9FA1FCBA9662E361AA8793E2927B7C /* GTMDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70F88436AC10E081BCF3612603972075 /* Pods-what-to-cook-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB7EF831BF5B4D31B856C49356D49D9F /* Pods-what-to-cook-dummy.m */; };
+		81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8771C38E36DB47B2284D88BFC7C8D5 /* GoogleToolboxForMac-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81FFF2FA9AF5BEE457319A4A9E3773EF /* JDAppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A55B3942F8C5379F1954E56D8D2D85 /* JDAppCoordinator.swift */; };
+		86F1A7930F9CA2D74DE3919ADAD13A29 /* Pods-what-to-cook-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C8F58C5F68EB6C582A5BD573157970E /* Pods-what-to-cook-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BB527924685C7A6AE636398545BB420 /* JDBaseCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C999AAB556A654E452BB3BD75E29AE8 /* JDBaseCoordinatorProtocol.swift */; };
+		9027037F0022DF7DD4F98EE641DB4097 /* JDNavigationCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0771C19B5693F306689603AA70BDDC /* JDNavigationCoordinator.swift */; };
+		9D4A131077DFCB956508F1D88818F69A /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = 9E446963ABC68454771FFF7F99908731 /* Info.plist */; };
+		A6E9CA270A02C802FEE7D395E1B6B85A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		AA2956F426EE4221690BB308BA276298 /* Pods-what-to-cookUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C9C6533556ADF94942713D4A094D2AB /* Pods-what-to-cookUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B403DA198E45AEE7980D1A069C14F497 /* JDCoordinator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F45B4DB8F6809A7BDCFAF3A55EF89926 /* JDCoordinator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */ = {isa = PBXBuildFile; fileRef = D23BDA28FCE0C543A44CE25B023DE73E /* GTMNSData+zlib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE896EB084671C773F1A8D140AB68B4B /* JDParentCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDEAC9A7658FA718A76A016AA113883 /* JDParentCoordinatorProtocol.swift */; };
+		E8588D3CB0A7453CAC7A72B7405B0D20 /* JDSplitViewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98175BDF918A1DAAC44F68DC61A3F418 /* JDSplitViewCoordinator.swift */; };
+		EF2F924AFB0084A6F7ECE916EF911CD3 /* NextResponderTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF9010FC62AC4B4014DB38D08731A4D /* NextResponderTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1C177521B5353420A7A2F7D04B595F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		F3F4DCA1F6A7002564D9782A41CC197D /* NextResponderTextField-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 514EAB0E9D3C9B11246F043AE5DBEC63 /* NextResponderTextField-dummy.m */; };
+		F529027B131FBC0C6458E4DD21841A6C /* Pods-what-to-cookUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 316E79D941CF6DC9B874CBF320C76F08 /* Pods-what-to-cookUITests-dummy.m */; };
+		F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F86BCBB3253FDDD772EB520E7F14B5 /* GTMNSData+zlib.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F09C97F62FC4B40E1C1768A056B6A61 /* GoogleToolboxForMac-dummy.m */; };
+		FED6677463D7F394446597FBFAF8D259 /* JDSplitViewCoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B3AB70191AB61F7421FD2A62BC154D /* JDSplitViewCoordinatorProtocol.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		088C7163A2F1D1BA726821C92420112D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 110FFD5065A61CA8702106F4A6D8121C;
+			remoteInfo = JDCoordinator;
+		};
+		A1F2789F1EC2C88C4A9F107C1AA33A93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 00103D6C821BE85971C563025527BA5D;
+			remoteInfo = GoogleToolboxForMac;
+		};
+		AC939428D14279C7749BEB5A12038F3B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6F8E273E7DBADDE69335D32F3FC4747;
+			remoteInfo = NextResponderTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		023A40865E05DDE0C5EC8F566FE3F625 /* Pods-what-to-cookTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-what-to-cookTests-umbrella.h"; sourceTree = "<group>"; };
+		093EB6343E0B48EAB9F800F2A7FF76A5 /* UINavigationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UINavigationController.swift; path = JDCoordinator/Extensions/UINavigationController.swift; sourceTree = "<group>"; };
+		09977235BFC9C06125795CFAEE0E3E07 /* NextResponderTextField.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = NextResponderTextField.modulemap; sourceTree = "<group>"; };
+		0D6CA41FB2500B04B4F1AFCE34866F17 /* NextResponderTextField.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NextResponderTextField.xcconfig; sourceTree = "<group>"; };
+		0EB4E5B7F83DA460B6E077B30BA4DCD7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1186D67E9BE8375383562F9E53B5C3F0 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		13D54F33568A5DE432619FC52239747E /* Pods-what-to-cookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-what-to-cookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		15B3AB70191AB61F7421FD2A62BC154D /* JDSplitViewCoordinatorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JDSplitViewCoordinatorProtocol.swift; path = JDCoordinator/Protocols/JDSplitViewCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		1A4CFF8188F03606DE387345DCA43773 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Core/Sources/Firebase.h; sourceTree = "<group>"; };
+		1C999AAB556A654E452BB3BD75E29AE8 /* JDBaseCoordinatorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JDBaseCoordinatorProtocol.swift; path = JDCoordinator/Protocols/JDBaseCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		1C9C6533556ADF94942713D4A094D2AB /* Pods-what-to-cookUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-what-to-cookUITests-umbrella.h"; sourceTree = "<group>"; };
+		1E66AA1DB7B921B250B6208BD0EA1B82 /* Pods-what-to-cookTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-what-to-cookTests-dummy.m"; sourceTree = "<group>"; };
+		1FD65C833AF80CB645068B961A33F3A0 /* GoogleToolboxForMac.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleToolboxForMac.modulemap; sourceTree = "<group>"; };
+		205FD5FD0B1A5CDE54D52CDD3BBF6511 /* NextResponderTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NextResponderTextField.framework; path = NextResponderTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		217E3E5FED8010F1100C0B7F31A76546 /* NextResponderTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NextResponderTextField.swift; path = Sources/NextResponderTextField.swift; sourceTree = "<group>"; };
+		24B0600E11FA448F8F0DD3CF030E0A28 /* JDCoordinator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JDCoordinator.framework; path = JDCoordinator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7FBDB2C5EAE02BFF49D631A934B482 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		3122FB2601634D93C10E9173384F1B4D /* GoogleToolboxForMac.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleToolboxForMac.xcconfig; sourceTree = "<group>"; };
+		316E79D941CF6DC9B874CBF320C76F08 /* Pods-what-to-cookUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-what-to-cookUITests-dummy.m"; sourceTree = "<group>"; };
+		448D9A90BC5C83DB1A40DA2AF838858E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46FB5FF7FD46C23A42C8E6B4116686AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4716AD1BBB90392C4FC8AE10D9B92255 /* Pods-what-to-cookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-what-to-cookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		487A9F80FB4A6FAB9CF9D744A66EB202 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		4A6D299F74856F9A6369045ED7100A9A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A827ACC19B6F17CF43B8008A791A8A4 /* Pods_what_to_cookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_what_to_cookTests.framework; path = "Pods-what-to-cookTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DDEAC9A7658FA718A76A016AA113883 /* JDParentCoordinatorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JDParentCoordinatorProtocol.swift; path = JDCoordinator/Protocols/JDParentCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		514EAB0E9D3C9B11246F043AE5DBEC63 /* NextResponderTextField-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NextResponderTextField-dummy.m"; sourceTree = "<group>"; };
+		52C2DBD20A57D3CCB92309E623E98BC7 /* Pods-what-to-cook-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-what-to-cook-acknowledgements.markdown"; sourceTree = "<group>"; };
+		539C38CF7955EF272DAAC9B2850F0E1A /* GoogleToolboxForMac-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-prefix.pch"; sourceTree = "<group>"; };
+		55A9B432C68A1BC55663D83C113B1B8F /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		5885B72C976B7A6EE9DBD096348822F6 /* Pods-what-to-cook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-what-to-cook.debug.xcconfig"; sourceTree = "<group>"; };
+		595A46FCB7C6B92C71145B7AFC3666C7 /* JDCoordinator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JDCoordinator.xcconfig; sourceTree = "<group>"; };
+		5962A5D6D7D4E40636D528E11BFBEC9B /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Sources/FIRInstanceID.h; sourceTree = "<group>"; };
+		5A47602C7053AA007F4C6BB991C2B59A /* Pods-what-to-cook.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-what-to-cook.modulemap"; sourceTree = "<group>"; };
+		5C8F58C5F68EB6C582A5BD573157970E /* Pods-what-to-cook-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-what-to-cook-umbrella.h"; sourceTree = "<group>"; };
+		6560CAB081614EB58EEF931F89BCEA3C /* Pods-what-to-cook-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-what-to-cook-acknowledgements.plist"; sourceTree = "<group>"; };
+		6A11B0B74C057BE79233FD49888AC9E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6F8771C38E36DB47B2284D88BFC7C8D5 /* GoogleToolboxForMac-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleToolboxForMac-umbrella.h"; sourceTree = "<group>"; };
+		7111EC600911335E3FA9A8AEE949743B /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCore.framework; path = Frameworks/FirebaseCore.framework; sourceTree = "<group>"; };
+		71C756EE7569EFC291DFA2A9DB9EBA37 /* Pods-what-to-cookTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-what-to-cookTests.modulemap"; sourceTree = "<group>"; };
+		7D0B83FD954A0944B73FEF1188A100E6 /* Pods-what-to-cookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-what-to-cookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		81A9DD9B9AA00B19EAEDD36AF7603033 /* NextResponderTextField-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NextResponderTextField-prefix.pch"; sourceTree = "<group>"; };
+		84249EC7BBCC7963CB82B3DCAB714C71 /* Pods-what-to-cookUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-what-to-cookUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		84830256CBF86A8E78A4865F4EDF6B21 /* Pods_what_to_cookUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_what_to_cookUITests.framework; path = "Pods-what-to-cookUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		85A55B3942F8C5379F1954E56D8D2D85 /* JDAppCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JDAppCoordinator.swift; path = JDCoordinator/Classes/JDAppCoordinator.swift; sourceTree = "<group>"; };
+		8C9FA1FCBA9662E361AA8793E2927B7C /* GTMDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		8F09C97F62FC4B40E1C1768A056B6A61 /* GoogleToolboxForMac-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleToolboxForMac-dummy.m"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98175BDF918A1DAAC44F68DC61A3F418 /* JDSplitViewCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JDSplitViewCoordinator.swift; path = JDCoordinator/Classes/JDSplitViewCoordinator.swift; sourceTree = "<group>"; };
+		9913CC806ED8473C20CD7A3F1FCABD7D /* Pods-what-to-cookTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-what-to-cookTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9968310EE3658FFD5164866B47B30B73 /* Pods-what-to-cookUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-what-to-cookUITests-frameworks.sh"; sourceTree = "<group>"; };
+		9D872407B95CC597E4779B3521B8D5EC /* Pods_what_to_cook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_what_to_cook.framework; path = "Pods-what-to-cook.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E446963ABC68454771FFF7F99908731 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = "<group>"; };
+		A40166A216F02D14F1D7BC7445783C19 /* JDCoordinator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDCoordinator-prefix.pch"; sourceTree = "<group>"; };
+		AB7EF831BF5B4D31B856C49356D49D9F /* Pods-what-to-cook-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-what-to-cook-dummy.m"; sourceTree = "<group>"; };
+		AF5CD4A19FEEAF91961286614165674A /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		B489145F508A6F0B0688D2B9D62B549D /* Pods-what-to-cook-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-what-to-cook-frameworks.sh"; sourceTree = "<group>"; };
+		BD59B724B0B44EEC9D94B6337614B4EC /* Pods-what-to-cookTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-what-to-cookTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BE0771C19B5693F306689603AA70BDDC /* JDNavigationCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JDNavigationCoordinator.swift; path = JDCoordinator/Protocols/JDNavigationCoordinator.swift; sourceTree = "<group>"; };
+		BE888CE2E7C29A335E0071930B0AA9EA /* Pods-what-to-cook-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-what-to-cook-resources.sh"; sourceTree = "<group>"; };
+		BEAFD9B97BDBA4BF09D96CAB025486A1 /* JDCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JDCoordinator.swift; path = JDCoordinator/Classes/JDCoordinator.swift; sourceTree = "<group>"; };
+		C36E58FED858EA505F908735168D082E /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleToolboxForMac.framework; path = GoogleToolboxForMac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3C04DE3C0F2C4CE8F18E07534DDF38E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4919FA1E24F52C8730C1C28749D8DA6 /* Pods-what-to-cookTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-what-to-cookTests-frameworks.sh"; sourceTree = "<group>"; };
+		CAECB8808AA356BA5E17DC3B2EB35010 /* Pods-what-to-cook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-what-to-cook.release.xcconfig"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D23BDA28FCE0C543A44CE25B023DE73E /* GTMNSData+zlib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSData+zlib.h"; path = "Foundation/GTMNSData+zlib.h"; sourceTree = "<group>"; };
+		D3C314ADDB72DE1F2CD8671DAFE784C7 /* JDParentCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JDParentCoordinator.swift; path = JDCoordinator/Classes/JDParentCoordinator.swift; sourceTree = "<group>"; };
+		D94CA2A160E64AA82D1E9022098A0843 /* JDChildCoordinatorProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JDChildCoordinatorProtocol.swift; path = JDCoordinator/Protocols/JDChildCoordinatorProtocol.swift; sourceTree = "<group>"; };
+		DDF9010FC62AC4B4014DB38D08731A4D /* NextResponderTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = NextResponderTextField.h; path = Sources/NextResponderTextField.h; sourceTree = "<group>"; };
+		E2F8A354F0FFDF1F33D1A8F673D8BF11 /* Pods-what-to-cookUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-what-to-cookUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB137443B6A25AF61D0FC9F05AF81B33 /* NextResponderTextField-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NextResponderTextField-umbrella.h"; sourceTree = "<group>"; };
+		F1F942BCF9BDE3C463A3D705110CDEAF /* Pods-what-to-cookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-what-to-cookTests.release.xcconfig"; sourceTree = "<group>"; };
+		F292A8FC0A28BB2C7B36B7E3B2030AD5 /* JDCoordinator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JDCoordinator-dummy.m"; sourceTree = "<group>"; };
+		F45B4DB8F6809A7BDCFAF3A55EF89926 /* JDCoordinator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JDCoordinator-umbrella.h"; sourceTree = "<group>"; };
+		F8F86BCBB3253FDDD772EB520E7F14B5 /* GTMNSData+zlib.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSData+zlib.m"; path = "Foundation/GTMNSData+zlib.m"; sourceTree = "<group>"; };
+		F9F32DD189E7B91E8D06219FF4829893 /* Pods-what-to-cookTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-what-to-cookTests-resources.sh"; sourceTree = "<group>"; };
+		FA80D4AEAD207B739F1DAE14EED98584 /* JDCoordinator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JDCoordinator.modulemap; sourceTree = "<group>"; };
+		FC6268A250490728C62677DB806579C3 /* Pods-what-to-cookUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-what-to-cookUITests-resources.sh"; sourceTree = "<group>"; };
+		FEFA9DD0D212CAC4E55311F5A9534B7E /* Pods-what-to-cookUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-what-to-cookUITests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0453E114322FC4B82FDA40693E4B90F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04A32399E140CE32E5DEABE1A0F351B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D7DF3EFB1FD62A7EC5E6BEB10E6CDDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6E9CA270A02C802FEE7D395E1B6B85A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		744FE514714FADAAC16D4360F8A0859D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B11D72681E4C449AE1B9711DB1CB51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7FD6F748795C78DF7B34D3F9A7AE571E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1C177521B5353420A7A2F7D04B595F5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FAD137F7BDF808B2492D4F85230FD57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E81B3FA12034EFCFCA327B726C0FCB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3159D7CAFD56B809F40CA3330DA10889 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		062F731CD694A6536619F697E06C73EB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E01CABD16D20D829BECD9C03B9A26C3 /* Pods-what-to-cook */,
+				8690FCEA5F97206F961467A4FD3C465C /* Pods-what-to-cookTests */,
+				2AFFEE775F673E80C4B9FDDAD75F29F0 /* Pods-what-to-cookUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		064CC99DBF5DF8207B42307C85448E58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55A9B432C68A1BC55663D83C113B1B8F /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0F102741681078D7995DA5039859B7F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1186D67E9BE8375383562F9E53B5C3F0 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2AFFEE775F673E80C4B9FDDAD75F29F0 /* Pods-what-to-cookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				448D9A90BC5C83DB1A40DA2AF838858E /* Info.plist */,
+				FEFA9DD0D212CAC4E55311F5A9534B7E /* Pods-what-to-cookUITests.modulemap */,
+				E2F8A354F0FFDF1F33D1A8F673D8BF11 /* Pods-what-to-cookUITests-acknowledgements.markdown */,
+				84249EC7BBCC7963CB82B3DCAB714C71 /* Pods-what-to-cookUITests-acknowledgements.plist */,
+				316E79D941CF6DC9B874CBF320C76F08 /* Pods-what-to-cookUITests-dummy.m */,
+				9968310EE3658FFD5164866B47B30B73 /* Pods-what-to-cookUITests-frameworks.sh */,
+				FC6268A250490728C62677DB806579C3 /* Pods-what-to-cookUITests-resources.sh */,
+				1C9C6533556ADF94942713D4A094D2AB /* Pods-what-to-cookUITests-umbrella.h */,
+				7D0B83FD954A0944B73FEF1188A100E6 /* Pods-what-to-cookUITests.debug.xcconfig */,
+				4716AD1BBB90392C4FC8AE10D9B92255 /* Pods-what-to-cookUITests.release.xcconfig */,
+			);
+			name = "Pods-what-to-cookUITests";
+			path = "Target Support Files/Pods-what-to-cookUITests";
+			sourceTree = "<group>";
+		};
+		2C3C31C915AEED8C8FF5F1D859CDAAD3 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				71F7AFD14237695A56294D6F1C4F6355 /* Frameworks */,
+			);
+			name = FirebaseAnalytics;
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		3F8F904C4C20432CB4DAEBBDA35A6DE1 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				C6E95696DBB4DDECA0BC815344170C15 /* Frameworks */,
+			);
+			name = FirebaseDatabase;
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		4583606447867BF600A22171E87A4852 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3C04DE3C0F2C4CE8F18E07534DDF38E /* Info.plist */,
+				09977235BFC9C06125795CFAEE0E3E07 /* NextResponderTextField.modulemap */,
+				0D6CA41FB2500B04B4F1AFCE34866F17 /* NextResponderTextField.xcconfig */,
+				514EAB0E9D3C9B11246F043AE5DBEC63 /* NextResponderTextField-dummy.m */,
+				81A9DD9B9AA00B19EAEDD36AF7603033 /* NextResponderTextField-prefix.pch */,
+				EB137443B6A25AF61D0FC9F05AF81B33 /* NextResponderTextField-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NextResponderTextField";
+			sourceTree = "<group>";
+		};
+		49471291B7AF0487D064BEC874234F35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C36E58FED858EA505F908735168D082E /* GoogleToolboxForMac.framework */,
+				24B0600E11FA448F8F0DD3CF030E0A28 /* JDCoordinator.framework */,
+				205FD5FD0B1A5CDE54D52CDD3BBF6511 /* NextResponderTextField.framework */,
+				9D872407B95CC597E4779B3521B8D5EC /* Pods_what_to_cook.framework */,
+				4A827ACC19B6F17CF43B8008A791A8A4 /* Pods_what_to_cookTests.framework */,
+				84830256CBF86A8E78A4865F4EDF6B21 /* Pods_what_to_cookUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		510B65ECF0B19B948C4417AF284667C5 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				0F102741681078D7995DA5039859B7F2 /* Frameworks */,
+			);
+			name = GoogleSymbolUtilities;
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		52F24F569BA4CCAD16DC4140F63891C8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1A4CFF8188F03606DE387345DCA43773 /* Firebase.h */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		5AB73BCD5367F975BA72A1927A605D23 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F43F784D02335850F91BD418A1111F1B /* Firebase */,
+				2C3C31C915AEED8C8FF5F1D859CDAAD3 /* FirebaseAnalytics */,
+				69853D30D53E98869F5EABE58FEBA4CF /* FirebaseCore */,
+				3F8F904C4C20432CB4DAEBBDA35A6DE1 /* FirebaseDatabase */,
+				DB5A0FF5DA54C37707FB88BF0006F92A /* FirebaseInstanceID */,
+				DDBA0D0EA1C3B3D23453B448E8CD179F /* GoogleInterchangeUtilities */,
+				510B65ECF0B19B948C4417AF284667C5 /* GoogleSymbolUtilities */,
+				B2853CE71BDC2B8E640E212BDD180E68 /* GoogleToolboxForMac */,
+				D347F26AB58FF11DD886F7D4E128E7D0 /* JDCoordinator */,
+				D4780288EF1958A48C06A06A2D09D37C /* NextResponderTextField */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6275002801CAF7EFA21CA5E10456AE5E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				46FB5FF7FD46C23A42C8E6B4116686AA /* Info.plist */,
+				FA80D4AEAD207B739F1DAE14EED98584 /* JDCoordinator.modulemap */,
+				595A46FCB7C6B92C71145B7AFC3666C7 /* JDCoordinator.xcconfig */,
+				F292A8FC0A28BB2C7B36B7E3B2030AD5 /* JDCoordinator-dummy.m */,
+				A40166A216F02D14F1D7BC7445783C19 /* JDCoordinator-prefix.pch */,
+				F45B4DB8F6809A7BDCFAF3A55EF89926 /* JDCoordinator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JDCoordinator";
+			sourceTree = "<group>";
+		};
+		69853D30D53E98869F5EABE58FEBA4CF /* FirebaseCore */ = {
+			isa = PBXGroup;
+			children = (
+				734A2A0CA60085D7F2D4693090D2C58C /* Frameworks */,
+			);
+			name = FirebaseCore;
+			path = FirebaseCore;
+			sourceTree = "<group>";
+		};
+		6B1AC9BD3A57544FB3FE7E25D2ED9D02 /* NSData+zlib */ = {
+			isa = PBXGroup;
+			children = (
+				D23BDA28FCE0C543A44CE25B023DE73E /* GTMNSData+zlib.h */,
+				F8F86BCBB3253FDDD772EB520E7F14B5 /* GTMNSData+zlib.m */,
+			);
+			name = "NSData+zlib";
+			sourceTree = "<group>";
+		};
+		71F7AFD14237695A56294D6F1C4F6355 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF5CD4A19FEEAF91961286614165674A /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		734A2A0CA60085D7F2D4693090D2C58C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7111EC600911335E3FA9A8AEE949743B /* FirebaseCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7B95F2B99682485F92137C977ED49571 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FD65C833AF80CB645068B961A33F3A0 /* GoogleToolboxForMac.modulemap */,
+				3122FB2601634D93C10E9173384F1B4D /* GoogleToolboxForMac.xcconfig */,
+				8F09C97F62FC4B40E1C1768A056B6A61 /* GoogleToolboxForMac-dummy.m */,
+				539C38CF7955EF272DAAC9B2850F0E1A /* GoogleToolboxForMac-prefix.pch */,
+				6F8771C38E36DB47B2284D88BFC7C8D5 /* GoogleToolboxForMac-umbrella.h */,
+				4A6D299F74856F9A6369045ED7100A9A /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleToolboxForMac";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5AB73BCD5367F975BA72A1927A605D23 /* Pods */,
+				49471291B7AF0487D064BEC874234F35 /* Products */,
+				062F731CD694A6536619F697E06C73EB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8690FCEA5F97206F961467A4FD3C465C /* Pods-what-to-cookTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A11B0B74C057BE79233FD49888AC9E4 /* Info.plist */,
+				71C756EE7569EFC291DFA2A9DB9EBA37 /* Pods-what-to-cookTests.modulemap */,
+				9913CC806ED8473C20CD7A3F1FCABD7D /* Pods-what-to-cookTests-acknowledgements.markdown */,
+				BD59B724B0B44EEC9D94B6337614B4EC /* Pods-what-to-cookTests-acknowledgements.plist */,
+				1E66AA1DB7B921B250B6208BD0EA1B82 /* Pods-what-to-cookTests-dummy.m */,
+				C4919FA1E24F52C8730C1C28749D8DA6 /* Pods-what-to-cookTests-frameworks.sh */,
+				F9F32DD189E7B91E8D06219FF4829893 /* Pods-what-to-cookTests-resources.sh */,
+				023A40865E05DDE0C5EC8F566FE3F625 /* Pods-what-to-cookTests-umbrella.h */,
+				13D54F33568A5DE432619FC52239747E /* Pods-what-to-cookTests.debug.xcconfig */,
+				F1F942BCF9BDE3C463A3D705110CDEAF /* Pods-what-to-cookTests.release.xcconfig */,
+			);
+			name = "Pods-what-to-cookTests";
+			path = "Target Support Files/Pods-what-to-cookTests";
+			sourceTree = "<group>";
+		};
+		9E01CABD16D20D829BECD9C03B9A26C3 /* Pods-what-to-cook */ = {
+			isa = PBXGroup;
+			children = (
+				0EB4E5B7F83DA460B6E077B30BA4DCD7 /* Info.plist */,
+				5A47602C7053AA007F4C6BB991C2B59A /* Pods-what-to-cook.modulemap */,
+				52C2DBD20A57D3CCB92309E623E98BC7 /* Pods-what-to-cook-acknowledgements.markdown */,
+				6560CAB081614EB58EEF931F89BCEA3C /* Pods-what-to-cook-acknowledgements.plist */,
+				AB7EF831BF5B4D31B856C49356D49D9F /* Pods-what-to-cook-dummy.m */,
+				B489145F508A6F0B0688D2B9D62B549D /* Pods-what-to-cook-frameworks.sh */,
+				BE888CE2E7C29A335E0071930B0AA9EA /* Pods-what-to-cook-resources.sh */,
+				5C8F58C5F68EB6C582A5BD573157970E /* Pods-what-to-cook-umbrella.h */,
+				5885B72C976B7A6EE9DBD096348822F6 /* Pods-what-to-cook.debug.xcconfig */,
+				CAECB8808AA356BA5E17DC3B2EB35010 /* Pods-what-to-cook.release.xcconfig */,
+			);
+			name = "Pods-what-to-cook";
+			path = "Target Support Files/Pods-what-to-cook";
+			sourceTree = "<group>";
+		};
+		B0347265BDD55A20B0CA27042C6EEBCE /* Defines */ = {
+			isa = PBXGroup;
+			children = (
+				8C9FA1FCBA9662E361AA8793E2927B7C /* GTMDefines.h */,
+			);
+			name = Defines;
+			sourceTree = "<group>";
+		};
+		B2853CE71BDC2B8E640E212BDD180E68 /* GoogleToolboxForMac */ = {
+			isa = PBXGroup;
+			children = (
+				B0347265BDD55A20B0CA27042C6EEBCE /* Defines */,
+				6B1AC9BD3A57544FB3FE7E25D2ED9D02 /* NSData+zlib */,
+				7B95F2B99682485F92137C977ED49571 /* Support Files */,
+			);
+			name = GoogleToolboxForMac;
+			path = GoogleToolboxForMac;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C6E95696DBB4DDECA0BC815344170C15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C7FBDB2C5EAE02BFF49D631A934B482 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D347F26AB58FF11DD886F7D4E128E7D0 /* JDCoordinator */ = {
+			isa = PBXGroup;
+			children = (
+				85A55B3942F8C5379F1954E56D8D2D85 /* JDAppCoordinator.swift */,
+				1C999AAB556A654E452BB3BD75E29AE8 /* JDBaseCoordinatorProtocol.swift */,
+				D94CA2A160E64AA82D1E9022098A0843 /* JDChildCoordinatorProtocol.swift */,
+				BEAFD9B97BDBA4BF09D96CAB025486A1 /* JDCoordinator.swift */,
+				BE0771C19B5693F306689603AA70BDDC /* JDNavigationCoordinator.swift */,
+				D3C314ADDB72DE1F2CD8671DAFE784C7 /* JDParentCoordinator.swift */,
+				4DDEAC9A7658FA718A76A016AA113883 /* JDParentCoordinatorProtocol.swift */,
+				98175BDF918A1DAAC44F68DC61A3F418 /* JDSplitViewCoordinator.swift */,
+				15B3AB70191AB61F7421FD2A62BC154D /* JDSplitViewCoordinatorProtocol.swift */,
+				093EB6343E0B48EAB9F800F2A7FF76A5 /* UINavigationController.swift */,
+				6275002801CAF7EFA21CA5E10456AE5E /* Support Files */,
+			);
+			name = JDCoordinator;
+			path = JDCoordinator;
+			sourceTree = "<group>";
+		};
+		D4780288EF1958A48C06A06A2D09D37C /* NextResponderTextField */ = {
+			isa = PBXGroup;
+			children = (
+				9E446963ABC68454771FFF7F99908731 /* Info.plist */,
+				DDF9010FC62AC4B4014DB38D08731A4D /* NextResponderTextField.h */,
+				217E3E5FED8010F1100C0B7F31A76546 /* NextResponderTextField.swift */,
+				4583606447867BF600A22171E87A4852 /* Support Files */,
+			);
+			name = NextResponderTextField;
+			path = NextResponderTextField;
+			sourceTree = "<group>";
+		};
+		DB5A0FF5DA54C37707FB88BF0006F92A /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				5962A5D6D7D4E40636D528E11BFBEC9B /* FIRInstanceID.h */,
+				064CC99DBF5DF8207B42307C85448E58 /* Frameworks */,
+			);
+			name = FirebaseInstanceID;
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		DDBA0D0EA1C3B3D23453B448E8CD179F /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				EE70A0B923AF6D6810BF217409F69280 /* Frameworks */,
+			);
+			name = GoogleInterchangeUtilities;
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		EE70A0B923AF6D6810BF217409F69280 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				487A9F80FB4A6FAB9CF9D744A66EB202 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F43F784D02335850F91BD418A1111F1B /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				52F24F569BA4CCAD16DC4140F63891C8 /* Core */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2524346AC1C3F68736F4DD61A7463367 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				268FB76A77CD47867AD776705D247D4E /* Pods-what-to-cookTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C741D5C45CDA479397DD4FBAAE4966 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E947A7F8D3DC94204CB3200E734CCF8 /* NextResponderTextField-umbrella.h in Headers */,
+				EF2F924AFB0084A6F7ECE916EF911CD3 /* NextResponderTextField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0CF9C38EBCE69EC183B554B411A117A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2956F426EE4221690BB308BA276298 /* Pods-what-to-cookUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1DBD56D6B81262B5E8E5AD6C9D23C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F1A7930F9CA2D74DE3919ADAD13A29 /* Pods-what-to-cook-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA92501191AAE8DAAA7C0FDAC2990FE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B403DA198E45AEE7980D1A069C14F497 /* JDCoordinator-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81E4B6988FF26F9249B79C6C8CC667B4 /* GoogleToolboxForMac-umbrella.h in Headers */,
+				541C5362289CC44D4F067D097F231250 /* GTMDefines.h in Headers */,
+				DBFECCB0BBE3F11CC41A3C1A8C4879D3 /* GTMNSData+zlib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */;
+			buildPhases = (
+				63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */,
+				F9BC43EEAF05BCB201B3D28C244AA7E1 /* Frameworks */,
+				FDA600FDC48ED17BA03DA2D85D4EDA97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleToolboxForMac;
+			productName = GoogleToolboxForMac;
+			productReference = C36E58FED858EA505F908735168D082E /* GoogleToolboxForMac.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0D378C0B552B3B31FE145ECD035219C5 /* Pods-what-to-cookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AB0BF68E89894B7A204B04838F6610B /* Build configuration list for PBXNativeTarget "Pods-what-to-cookTests" */;
+			buildPhases = (
+				8050A5AE087E7BA334261E9F59AABCB8 /* Sources */,
+				744FE514714FADAAC16D4360F8A0859D /* Frameworks */,
+				2524346AC1C3F68736F4DD61A7463367 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-what-to-cookTests";
+			productName = "Pods-what-to-cookTests";
+			productReference = 4A827ACC19B6F17CF43B8008A791A8A4 /* Pods_what_to_cookTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		110FFD5065A61CA8702106F4A6D8121C /* JDCoordinator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62CEAAA7E6D4ABDE03E910360BBE1727 /* Build configuration list for PBXNativeTarget "JDCoordinator" */;
+			buildPhases = (
+				1CCFB23E7CCB07B29E1971DA444772F4 /* Sources */,
+				7FD6F748795C78DF7B34D3F9A7AE571E /* Frameworks */,
+				EA92501191AAE8DAAA7C0FDAC2990FE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JDCoordinator;
+			productName = JDCoordinator;
+			productReference = 24B0600E11FA448F8F0DD3CF030E0A28 /* JDCoordinator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		28D14781C5335D53B11F0394334DFDED /* Pods-what-to-cookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8BAD947A9A10FE1AA62FB3150858999 /* Build configuration list for PBXNativeTarget "Pods-what-to-cookUITests" */;
+			buildPhases = (
+				5EE8E3E6FE3AA11B28464E0C72D2C645 /* Sources */,
+				5D7DF3EFB1FD62A7EC5E6BEB10E6CDDF /* Frameworks */,
+				A0CF9C38EBCE69EC183B554B411A117A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-what-to-cookUITests";
+			productName = "Pods-what-to-cookUITests";
+			productReference = 84830256CBF86A8E78A4865F4EDF6B21 /* Pods_what_to_cookUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DC49A7CBF2ABF443AA5302B6BBF56194 /* Pods-what-to-cook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E740FDDC52BCD61E3C9592014F7135B /* Build configuration list for PBXNativeTarget "Pods-what-to-cook" */;
+			buildPhases = (
+				A0EA1F8FC745D4AD1C94543F0A056E7F /* Sources */,
+				9FAD137F7BDF808B2492D4F85230FD57 /* Frameworks */,
+				CE1DBD56D6B81262B5E8E5AD6C9D23C1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3D0E09883357B5566D3535130606E79 /* PBXTargetDependency */,
+				313CABAF93BBBC5727DFCC3DC7BE1BB0 /* PBXTargetDependency */,
+				B67D4612FB08F46396DF09B678F8C7B7 /* PBXTargetDependency */,
+			);
+			name = "Pods-what-to-cook";
+			productName = "Pods-what-to-cook";
+			productReference = 9D872407B95CC597E4779B3521B8D5EC /* Pods_what_to_cook.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6F8E273E7DBADDE69335D32F3FC4747 /* NextResponderTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2FA1AC2A80414C2DBBFA0F91B077979 /* Build configuration list for PBXNativeTarget "NextResponderTextField" */;
+			buildPhases = (
+				B5E667E7AA3860E5AD7BB4E350EE82FB /* Sources */,
+				0453E114322FC4B82FDA40693E4B90F0 /* Frameworks */,
+				94C741D5C45CDA479397DD4FBAAE4966 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NextResponderTextField;
+			productName = NextResponderTextField;
+			productReference = 205FD5FD0B1A5CDE54D52CDD3BBF6511 /* NextResponderTextField.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 49471291B7AF0487D064BEC874234F35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */,
+				110FFD5065A61CA8702106F4A6D8121C /* JDCoordinator */,
+				F6F8E273E7DBADDE69335D32F3FC4747 /* NextResponderTextField */,
+				DC49A7CBF2ABF443AA5302B6BBF56194 /* Pods-what-to-cook */,
+				0D378C0B552B3B31FE145ECD035219C5 /* Pods-what-to-cookTests */,
+				28D14781C5335D53B11F0394334DFDED /* Pods-what-to-cookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CCFB23E7CCB07B29E1971DA444772F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FFF2FA9AF5BEE457319A4A9E3773EF /* JDAppCoordinator.swift in Sources */,
+				8BB527924685C7A6AE636398545BB420 /* JDBaseCoordinatorProtocol.swift in Sources */,
+				48C769F21B016F7497342FCA0D08BDC3 /* JDChildCoordinatorProtocol.swift in Sources */,
+				2E3302259DD6B80181D8289BBA173D0F /* JDCoordinator-dummy.m in Sources */,
+				1CC570D92B7E346955AB9A4BD92497FB /* JDCoordinator.swift in Sources */,
+				9027037F0022DF7DD4F98EE641DB4097 /* JDNavigationCoordinator.swift in Sources */,
+				408E04F42D3ADE85620A93220CB43BD8 /* JDParentCoordinator.swift in Sources */,
+				DE896EB084671C773F1A8D140AB68B4B /* JDParentCoordinatorProtocol.swift in Sources */,
+				E8588D3CB0A7453CAC7A72B7405B0D20 /* JDSplitViewCoordinator.swift in Sources */,
+				FED6677463D7F394446597FBFAF8D259 /* JDSplitViewCoordinatorProtocol.swift in Sources */,
+				0C60605B772C9822E0769C4370209264 /* UINavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE8E3E6FE3AA11B28464E0C72D2C645 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F529027B131FBC0C6458E4DD21841A6C /* Pods-what-to-cookUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63D7DA997053F6B5D01DE8CB5817CB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC3F3CAABA60EF76069431C5BB5032A /* GoogleToolboxForMac-dummy.m in Sources */,
+				F7D889906DECB078EAAECB9D4A320E9C /* GTMNSData+zlib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8050A5AE087E7BA334261E9F59AABCB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0348D5CB1CFD39648771D43E05BA0D /* Pods-what-to-cookTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0EA1F8FC745D4AD1C94543F0A056E7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70F88436AC10E081BCF3612603972075 /* Pods-what-to-cook-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5E667E7AA3860E5AD7BB4E350EE82FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D4A131077DFCB956508F1D88818F69A /* Info.plist in Sources */,
+				F3F4DCA1F6A7002564D9782A41CC197D /* NextResponderTextField-dummy.m in Sources */,
+				45E460A6EA2C97DA68DB758251155E8D /* NextResponderTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		313CABAF93BBBC5727DFCC3DC7BE1BB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JDCoordinator;
+			target = 110FFD5065A61CA8702106F4A6D8121C /* JDCoordinator */;
+			targetProxy = 088C7163A2F1D1BA726821C92420112D /* PBXContainerItemProxy */;
+		};
+		A3D0E09883357B5566D3535130606E79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleToolboxForMac;
+			target = 00103D6C821BE85971C563025527BA5D /* GoogleToolboxForMac */;
+			targetProxy = A1F2789F1EC2C88C4A9F107C1AA33A93 /* PBXContainerItemProxy */;
+		};
+		B67D4612FB08F46396DF09B678F8C7B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NextResponderTextField;
+			target = F6F8E273E7DBADDE69335D32F3FC4747 /* NextResponderTextField */;
+			targetProxy = AC939428D14279C7749BEB5A12038F3B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5CABFB593596753C109E4C68BD9E3E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAECB8808AA356BA5E17DC3B2EB35010 /* Pods-what-to-cook.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-what-to-cook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-what-to-cook/Pods-what-to-cook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_what_to_cook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		771AAECEFCB2ABA96F56910CE1E44704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0B83FD954A0944B73FEF1188A100E6 /* Pods-what-to-cookUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-what-to-cookUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-what-to-cookUITests/Pods-what-to-cookUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_what_to_cookUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		86C669F50C704C94E3990C3CD0C6FF2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595A46FCB7C6B92C71145B7AFC3666C7 /* JDCoordinator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JDCoordinator/JDCoordinator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JDCoordinator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JDCoordinator/JDCoordinator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JDCoordinator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A29573F0C47E51369088A6F814B5B484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D6CA41FB2500B04B4F1AFCE34866F17 /* NextResponderTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NextResponderTextField/NextResponderTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NextResponderTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NextResponderTextField/NextResponderTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = NextResponderTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8AAF8608BAE18C62B45D8233D30F95B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4716AD1BBB90392C4FC8AE10D9B92255 /* Pods-what-to-cookUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-what-to-cookUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-what-to-cookUITests/Pods-what-to-cookUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_what_to_cookUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABD1F199E5C0C8A1E79A834292A09641 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5885B72C976B7A6EE9DBD096348822F6 /* Pods-what-to-cook.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-what-to-cook/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-what-to-cook/Pods-what-to-cook.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_what_to_cook;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C3037D632FF0EC30C1C14A3B3648CF71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13D54F33568A5DE432619FC52239747E /* Pods-what-to-cookTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-what-to-cookTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-what-to-cookTests/Pods-what-to-cookTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_what_to_cookTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C859F89EACF220AB3FABC480C7A77071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1F942BCF9BDE3C463A3D705110CDEAF /* Pods-what-to-cookTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-what-to-cookTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-what-to-cookTests/Pods-what-to-cookTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_what_to_cookTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D60CD877A708870E2BE96B83BA32F883 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3122FB2601634D93C10E9173384F1B4D /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DCBA733D1182F49A8EC83F876EFA3818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 595A46FCB7C6B92C71145B7AFC3666C7 /* JDCoordinator.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JDCoordinator/JDCoordinator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JDCoordinator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JDCoordinator/JDCoordinator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JDCoordinator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F066921CBDBDB5F45795E50FBC5AC972 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3122FB2601634D93C10E9173384F1B4D /* GoogleToolboxForMac.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleToolboxForMac/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleToolboxForMac/GoogleToolboxForMac.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleToolboxForMac;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4663535911470ED08EEAD917CCD4D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D6CA41FB2500B04B4F1AFCE34866F17 /* NextResponderTextField.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/NextResponderTextField/NextResponderTextField-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NextResponderTextField/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/NextResponderTextField/NextResponderTextField.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = NextResponderTextField;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62CEAAA7E6D4ABDE03E910360BBE1727 /* Build configuration list for PBXNativeTarget "JDCoordinator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCBA733D1182F49A8EC83F876EFA3818 /* Debug */,
+				86C669F50C704C94E3990C3CD0C6FF2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AB0BF68E89894B7A204B04838F6610B /* Build configuration list for PBXNativeTarget "Pods-what-to-cookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3037D632FF0EC30C1C14A3B3648CF71 /* Debug */,
+				C859F89EACF220AB3FABC480C7A77071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E740FDDC52BCD61E3C9592014F7135B /* Build configuration list for PBXNativeTarget "Pods-what-to-cook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABD1F199E5C0C8A1E79A834292A09641 /* Debug */,
+				5CABFB593596753C109E4C68BD9E3E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8BAD947A9A10FE1AA62FB3150858999 /* Build configuration list for PBXNativeTarget "Pods-what-to-cookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				771AAECEFCB2ABA96F56910CE1E44704 /* Debug */,
+				A8AAF8608BAE18C62B45D8233D30F95B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2FA1AC2A80414C2DBBFA0F91B077979 /* Build configuration list for PBXNativeTarget "NextResponderTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4663535911470ED08EEAD917CCD4D63 /* Debug */,
+				A29573F0C47E51369088A6F814B5B484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C43D9CA5106C6CCEF973B7EDF833947B /* Build configuration list for PBXNativeTarget "GoogleToolboxForMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60CD877A708870E2BE96B83BA32F883 /* Debug */,
+				F066921CBDBDB5F45795E50FBC5AC972 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
