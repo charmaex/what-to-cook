@@ -17,6 +17,7 @@
 		A7FF5DB51E61F8DB00EC9838 /* Grocery.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FF5DB41E61F8DB00EC9838 /* Grocery.swift */; };
 		A7FF5DB91E61F91E00EC9838 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FF5DB71E61F91E00EC9838 /* MenuViewController.swift */; };
 		A7FF5DBA1E61F91E00EC9838 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7FF5DB81E61F91E00EC9838 /* MenuViewController.xib */; };
+		A7FF5DBC1E621AB400EC9838 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FF5DBB1E621AB400EC9838 /* AppCoordinator.swift */; };
 		DF79D87D663811DEADA3F8C7 /* Pods_what_to_cookUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 505C05B363AFE47CC6525F9A /* Pods_what_to_cookUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		A7FF5DB41E61F8DB00EC9838 /* Grocery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grocery.swift; sourceTree = "<group>"; };
 		A7FF5DB71E61F91E00EC9838 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		A7FF5DB81E61F91E00EC9838 /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		A7FF5DBB1E621AB400EC9838 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		B0472E8A3FADAE13E777EAED /* Pods-what-to-cookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-what-to-cookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-what-to-cookUITests/Pods-what-to-cookUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E1D6AAF957BEE8868B89A4BB /* Pods_what_to_cookTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_what_to_cookTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED33D7E03278B0BDA8408C8D /* Pods-what-to-cookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-what-to-cookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-what-to-cookTests/Pods-what-to-cookTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -186,6 +188,7 @@
 		A7FF5DB21E61F83B00EC9838 /* Section */ = {
 			isa = PBXGroup;
 			children = (
+				A7FF5DBB1E621AB400EC9838 /* AppCoordinator.swift */,
 				A7FF5DB61E61F8E900EC9838 /* Menu */,
 			);
 			path = Section;
@@ -493,6 +496,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7FF5D831E61F7BF00EC9838 /* AppDelegate.swift in Sources */,
+				A7FF5DBC1E621AB400EC9838 /* AppCoordinator.swift in Sources */,
 				A7FF5DB91E61F91E00EC9838 /* MenuViewController.swift in Sources */,
 				A7FF5DB51E61F8DB00EC9838 /* Grocery.swift in Sources */,
 			);
@@ -536,6 +540,7 @@
 				A7FF5D8C1E61F7BF00EC9838 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -743,6 +748,7 @@
 				A7FF5DA91E61F7C000EC9838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7FF5DAA1E61F7C000EC9838 /* Build configuration list for PBXNativeTarget "what-to-cookTests" */ = {
 			isa = XCConfigurationList;
@@ -751,6 +757,7 @@
 				A7FF5DAC1E61F7C000EC9838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7FF5DAD1E61F7C000EC9838 /* Build configuration list for PBXNativeTarget "what-to-cookUITests" */ = {
 			isa = XCConfigurationList;
@@ -759,6 +766,7 @@
 				A7FF5DAF1E61F7C000EC9838 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
